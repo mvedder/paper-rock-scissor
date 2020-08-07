@@ -9,11 +9,8 @@ def test_hello_world():
 
 
 def test_2fer_matthew():
-    assert "One for Matthew, one for me." == two_fer("Matthew")
-#
-#
-# def test_2fer_daniel():
-#     actual = two_fer("Daniel")
-#     expected = "One for Daniel, one for me."
-#
-#     assert expected == actual
+    assert "One for Matthew, one for me." == two_fer("Matthew") # f(2) = 4
+
+
+def test_2fer_daniel():
+    assert "One for Daniel, one for me." == two_fer("Daniel") # f(3) = 6
